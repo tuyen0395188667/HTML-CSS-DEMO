@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, arial, sans-serif, 'lucida grande';
+}
+
+/* Menu */
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu-wrap-2020 .menu ul{
+    background: #2fa1b3;
+    text-align: center;
+}
+.menu-wrap-2020 .menu ul li{
+    display: inline-table;
+/* line-height: 40px; đẻ căn giữa */
+    line-height: 35px;
+    list-style-type: none;
+    position: relative;
+}
+.menu-wrap-2020 .menu ul li > .li1{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    /* padding: 0px 10px;
+    border: solid 1px white; */
+} 
+.menu-wrap-2020 .menu ul li > .li2{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    /* padding: 0px 15px;
+    border: solid 1px white; */
+}
+.menu-wrap-2020 .menu ul li > .li3{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    /* padding: 0px 5px;
+    border: solid 1px white; */
+}
+.menu-wrap-2020 .menu ul li > .li4{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    /* padding: 0px 5px;
+    border: solid 1px white; */
+}
+.menu-wrap-2020 .menu ul li a:hover{
+    background: rgb(6, 101, 129);
+}
+.menu-wrap-2020 .menu ul  li >.li5{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+}
+.menu-wrap-2020 .menu ul li >.li6{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+}
+.menu-wrap-2020 .menu ul li >.li7{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+}
+.menu-wrap-2020 .menu ul li >.li8{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+    margin-right: 30px;
+}
+.menu-wrap-2020 .menu ul .li22 >.li9{
+    padding: 8px 15px;
+    border: solid 0.01px white;
+    background: rgb(3, 68, 85);
+}
+.menu-wrap-2020 .menu > ul > .li22 > .ul22{
+    background: rgb(59, 179, 35);
+    position: absolute;
+    top: 36px;
+    left: -900px;
+    /* display: none; */
+}
+.menu-wrap-2020 .menu > ul > .li22:hover .ul22{
+    display: block;
+}
+
+
+
+/* DÙng float:left, phải cps overflow bên  mục Cha */
+/* border-radius */

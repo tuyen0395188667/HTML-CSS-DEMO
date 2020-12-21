@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma, arial, sans-serif, 'lucida grande';
+}
+/* .wrapper{
+    background: rgb(236, 159, 4);
+    width: 100%;
+} */
+/* header */
+.header{
+    background: rgb(8, 211, 99);
+    margin: auto;
+    width: 51%;
+    height: 65px;   
+}
+.header .header1{
+    float: left;
+    width: 20%;
+    height: 65px;
+}
+.header .header2{
+    float: left;
+    width: 40%;
+    height: 65px;
+}
+.wrapper .menu{
+    background: #2fa1b3;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+}
+.container{
+    margin: auto;
+    width: 51%;
+    background: rgb(168, 26, 26);
+    margin-top: 20px;
+    /* overflow: hidden; */
+}
+.container .content{
+    margin: auto;
+    float: left;
+    width: 60%;
+    height: 1000px;
+    background: salmon;
+}
+.container .sidebar{
+    float: right;
+    width: 38%;
+    height: 1000px;
+    background: green;
+    
+}
+.container .content .content11{
+    color: white;
+    background: rgb(8, 211, 99);
+    margin: 20px 0px;
+}
+/* div3 */
+
+.div3{
+    background: red;
+    margin-bottom: 20px;
+}
+.container .content .div3 .content12{
+    background: tomato;
+    height: 200px;
+    float: left;
+    width: 32%;
+   
+}
+.container .content .div3 .content13{
+    background: violet;
+    height: 200px;
+    float: left;
+    width: 32%;
+    margin-left: 12px;
+
+}
+.container .content .div3 .content14{
+    background: turquoise;
+    height: 200px;
+    float: right;
+    width: 32%;
+}
+.clearfix{
+    clear: both;
+}
+
+/* div4 */
+.container .content .div4 {
+    background: saddlebrown;
+    margin: 20px 0px;
+    height: 100px;
+}
+.container .content .div4 .div41{
+    float: left;
+    width: 20%;
+}
+.container .content .div4 .div42{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+
+/* sidebar */
+.sidebar .sidebar1 {
+    background: saddlebrown;
+    margin-bottom: 20px;
+    height: 100px;
+}
+.sidebar .sidebar11{
+    float: left;
+    width: 20%;
+}
+.sidebar .sidebar12{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+
+.sidebar .sidebar2 {
+    background: saddlebrown;
+    margin: 20px 0px;
+    height: 100px;
+}
+.sidebar .sidebar21{
+    float: left;
+    width: 20%;
+}
+.sidebar .sidebar22{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+.sidebar .sidebar3 {
+    background: saddlebrown;
+    margin: 20px 0px;
+    height: 100px;
+}
+.sidebar .sidebar31{
+    float: left;
+    width: 20%;
+}
+.sidebar .sidebar32{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+.sidebar .sidebar4 {
+    background: saddlebrown;
+    margin: 20px 0px;
+    height: 100px;
+}
+.sidebar .sidebar41{
+    float: left;
+    width: 20%;
+}
+.sidebar .sidebar42{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+.sidebar .sidebar5 {
+    background: saddlebrown;
+    margin: 20px 0px;
+    height: 100px;
+}
+.sidebar .sidebar51{
+    float: left;
+    width: 20%;
+}
+.sidebar .sidebar52{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+.sidebar .sidebar6 {
+    background: saddlebrown;
+    margin: 20px 0px;
+    height: 100px;
+}
+.sidebar .sidebar61{
+    float: left;
+    width: 20%;
+}
+.sidebar .sidebar62{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+.sidebar .sidebar7 {
+    background: saddlebrown;
+    margin: 20px 0px;
+    height: 100px;
+}
+.sidebar .sidebar71{
+    float: left;
+    width: 20%;
+}
+.sidebar .sidebar72{
+    float: right;
+    width: 70%;
+    background: turquoise;
+    margin-right: 10px;
+}
+
+
+/* menu */
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu-wrap-2020 .menu ul{
+    background: #2fa1b3;
+    text-align: center;
+}
+.menu-wrap-2020 .menu ul li{
+    display: inline-table;
+/* line-height: 40px; đẻ căn giữa */
+    line-height: 35px;
+    list-style-type: none;
+    position: relative;
+}
+.menu-wrap-2020 .menu ul li > .li1{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    /* padding: 0px 10px;
+    border: solid 1px white; */
+} 
+.menu-wrap-2020 .menu ul li > .li2{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    /* padding: 0px 15px;
+    border: solid 1px white; */
+}
+.menu-wrap-2020 .menu ul li > .li3{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    /* padding: 0px 5px;
+    border: solid 1px white; */
+}
+.menu-wrap-2020 .menu ul li > .li4{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    /* padding: 0px 5px;
+    border: solid 1px white; */
+}
+.menu-wrap-2020 .menu ul li a:hover{
+    background: rgb(6, 101, 129);
+}
+.menu-wrap-2020 .menu ul  li >.li5{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+}
+.menu-wrap-2020 .menu ul li >.li6{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+}
+.menu-wrap-2020 .menu ul li >.li7{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+}
+.menu-wrap-2020 .menu ul li >.li8{
+    border: solid 1px white;
+    border-radius: 150px;
+    padding: 0px 5px;
+    font-size: 15px; 
+    margin-right: 30px;
+}
+.menu-wrap-2020 .menu ul .li22 >.li9{
+    padding: 8px 15px;
+    border: solid 0.01px white;
+    background: rgb(3, 68, 85);
+}
+
+
+
+
+
